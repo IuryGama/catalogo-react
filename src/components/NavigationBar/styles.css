@@ -1,0 +1,16 @@
+
+.navigation{
+  height: 86px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  justify-content: center;
+  border:1px solid black;
+}
+
+.navItens{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+

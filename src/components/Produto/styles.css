@@ -1,0 +1,61 @@
+
+.card{
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  border-radius: 0.2rem;
+  justify-content: space-between;
+  transition: transform 200ms ease-in;
+  box-shadow: 0 2px 16px black;
+  
+};
+
+.card:hover{
+  transform: scale(1.7);
+}
+
+.card__btn:hover{
+  color: white;
+  cursor: pointer;
+  background: green;
+}
+
+.card__image{
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__title{
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.card__description{
+ padding: 0 1rem; 
+}
+
+.card__btn{
+  margin: 1rem;
+  padding: 1rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  align-items: center;
+  font-family: inherit;
+  border-radius: 0.2rem;
+  background: transparent;
+  justify-content: center;
+  border: 2px solid black;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.priceDescription{
+  width: 800;
+  font-size: 18px;
+}
+
+.stockDescription{
+  width: 600;
+  font-size: 18px;
+}
