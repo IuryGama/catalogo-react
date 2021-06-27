@@ -20,7 +20,10 @@ export default function Card(props){
           <p className="priceDescription"> R$ {props.preco} </p>
           <p className="stockDescription"> Em estoque: {props.quantidade} </p>
         </div>  
+
+        <button className="card__btn">Detalhes</button>
         <button className="card__btn" onClick={adicionarProduto}>Adicionar ao carrinho</button>
+
       </div>
     </div>
   );

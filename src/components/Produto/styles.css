@@ -15,9 +15,10 @@
 }
 
 .card__btn:hover{
-  color: white;
+  opacity: 0.5;
+  color: black;
   cursor: pointer;
-  background: green;
+  transition: 200ms ease-in, color 200ms ease-in;
 }
 
 .card__image{
@@ -36,17 +37,16 @@
 }
 
 .card__btn{
-  margin: 1rem;
-  padding: 1rem;
-  color: black;
-  font-size: 1rem;
-  font-weight: bold;
-  align-items: center;
+  border: 0;
+  color: #333;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
   font-family: inherit;
-  border-radius: 0.2rem;
+  align-items: center;
   background: transparent;
   justify-content: center;
-  border: 2px solid black;
   transition: background 200ms ease-in, color 200ms ease-in;
 }
 
