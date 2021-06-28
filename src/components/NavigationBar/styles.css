@@ -1,16 +1,32 @@
-
-.navigation{
-  height: 86px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
-  justify-content: center;
-  border:1px solid black;
+ul {
+  list-style-type: none;
 }
 
-.navItens{
-  flex-wrap: wrap;
+header {
+  padding: 30px 10%;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
+h1 {
+  border: none;
+  cursor: pointer;
+  padding: 9px 25px;
+  justify-content: center;
+}
 
+.logo{
+  cursor: pointer;
+}
+
+
+.nav__links{
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0 20px;
+}

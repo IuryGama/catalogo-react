@@ -1,25 +1,19 @@
 import React from 'react';
 import './styles.css';
 
+import Carrinho from '../Carrinho';
+
 export default function NavigationBar(props){
   return (
-    <nav className="navigation">
-      <div className="navLogo">
-        <img className="image" src={props.imgPath} alt={props.imgDesc} />
-      </div>
-      
-      <div>
-        <h1>{props.titulo}</h1>
-      </div>
-      
-      <div className="navItens" >
-        <ul>
-          <a> <li> WhatsApp </li> </a>
-          <a> <li> Carrinho </li> </a>
+    <header>
+      <img className="logo" src='' alt='logo'/>
+      <h1>Petdo - Catalogo</h1>
+      <nav>
+        <ul className="nav__links">
+          <li><Carrinho /></li>
         </ul>
-      </div>
-
-    </nav>
+      </nav>
+    </header>
   )
 }
 

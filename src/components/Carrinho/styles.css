@@ -1,0 +1,41 @@
+.cart-wrapper{
+  font-style: none;
+  justify-content: center;
+  text-decoration: none !important;
+}
+
+
+.cart-wrapper:link{
+  text-decoration: none !important;
+}
+
+.basket{
+  margin: 5px;
+  position: relative;
+  flex-direction: row;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.badge{
+  top: -15px;
+  left: 10px;
+  position: absolute;
+
+  z-index: 5;
+  padding: 3px;
+  font-size: 14px;
+  background: transparent;
+}
+
+/* .cart{
+  text-decoration: none !important;
+} */
+
+/* .price{
+
+} */
+
+
